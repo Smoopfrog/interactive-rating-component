@@ -12,20 +12,34 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-.rating-component {
+.component {
   width: 350px;
   margin: auto;
   margin-top: 50px;
   color: white;
   background-color: hsl(213, 19%, 18%);
+  background-image: radial-gradient(
+    circle at top,
+    hsl(216, 12%, 54%) 0%,
+    hsl(213, 19%, 18%) 0%
+  );
   padding: 20px;
   border-radius: 20px;
+}
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .img-div {
@@ -38,6 +52,24 @@ body {
   padding: 10px;
   margin-bottom: 24px;
   background-color: hsl(216, 12%, 54%);
+}
+
+.thanks-img {
+  margin-bottom: 18px;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 20px;
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(25, 97%, 53%);
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-bottom: 18px;
+
 }
 
 .title {
