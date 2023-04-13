@@ -5,6 +5,10 @@
   font-family: "Overpass", sans-serif;
 }
 
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -19,7 +23,7 @@
   margin: auto;
   margin-top: 50px;
   color: white;
-  background-color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
   padding: 20px;
   border-radius: 20px;
 }
@@ -33,14 +37,46 @@
   border-radius: 50%;
   padding: 10px;
   margin-bottom: 24px;
-  background-color: hsl(217, 12%, 63%);
+  background-color: hsl(216, 12%, 54%);
 }
 
 .title {
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 24px;
 }
 
 p {
   font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 12px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 12px;
+}
+
+.btn-container button:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.btn-container button:active {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
 }
