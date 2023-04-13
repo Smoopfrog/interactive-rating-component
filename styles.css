@@ -19,7 +19,7 @@ body {
 }
 
 .rating-component {
-  width: 50vw;
+  width: 350px;
   margin: auto;
   margin-top: 50px;
   color: white;
@@ -79,4 +79,22 @@ p {
 .btn-container button:active {
   background-color: hsl(25, 97%, 53%);
   color: white;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  letter-spacing: 2px;
+}
+
+.submit-btn:active {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
 }
