@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
 }
 
 .attribution {
@@ -11,4 +12,25 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.rating-component {
+  width: 50vw;
+  height: 50vh;
+  margin: auto;
+  margin-top: 50px;
+  background-color: hsl(216, 12%, 54%);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: hsl(217, 12%, 63%);
 }
