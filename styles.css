@@ -20,15 +20,14 @@ body {
 }
 
 .component {
-  width: 350px;
+  max-width: 400px;
   margin: auto;
   margin-top: 50px;
   color: white;
-  background-color: hsl(213, 19%, 18%);
-  background-image: radial-gradient(
-    circle at top,
-    hsl(216, 12%, 54%) 0%,
-    hsl(213, 19%, 18%) 0%
+  background-image: linear-gradient(
+    to bottom,
+    hsl(212, 18%, 14%),
+    hsl(220, 16%, 11%)
   );
   padding: 20px;
   border-radius: 20px;
@@ -51,7 +50,7 @@ body {
   border-radius: 50%;
   padding: 10px;
   margin-bottom: 24px;
-  background-color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
 }
 
 .thanks-img {
@@ -64,12 +63,11 @@ body {
   align-items: center;
   width: 100%;
   border-radius: 20px;
-  background-color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
   color: hsl(25, 97%, 53%);
   padding: 5px 10px;
   font-size: 15px;
   margin-bottom: 18px;
-
 }
 
 .title {
@@ -81,7 +79,7 @@ body {
 p {
   font-size: 15px;
   color: hsl(217, 12%, 63%);
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .btn-container {
@@ -98,9 +96,9 @@ p {
   height: 40px;
   border-radius: 50%;
   border: none;
-  background-color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
   color: hsl(217, 12%, 63%);
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .btn-container button:hover {
