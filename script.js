@@ -15,6 +15,12 @@ const submitRating = (event) => {
 
   const ratingComponent = document.getElementsByClassName("rating")[0];
   ratingComponent.style.display = "none";
+
+  const currentRating = document.getElementsByClassName("active")[0].innerHTML;
+
+  const rating = document.getElementsByClassName("active-rating")[0];
+  rating.innerHTML = currentRating;
+
   const thanksComponent = document.getElementsByClassName("thanks")[0];
   thanksComponent.style.display = "flex";
 };
