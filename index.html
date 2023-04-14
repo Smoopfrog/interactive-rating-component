@@ -18,12 +18,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-
+    <script src="script.js"></script>
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
     <!-- Rating state start -->
-    <div class="component">
+    <div class="rating">
       <div class="img-div">
         <img src="images/icon-star.svg" />
       </div>
@@ -32,13 +32,13 @@
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-      <form>
+      <form onsubmit="submitRating(event)">
         <div class="btn-container">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-          <button>5</button>
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">4</button>
+          <button class="btn">5</button>
         </div>
         <button class="submit-btn">SUBMIT</button>
       </form>
@@ -47,7 +47,7 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <!-- <div class="component thanks">
+    <div class="thanks">
       <div>
         <div class="thanks-img">
           <img src="images/illustration-thank-you.svg" />
@@ -61,7 +61,7 @@
           more support, don’t hesitate to get in touch!
         </p>
       </div>
-    </div> -->
+    </div>
 
     <!-- Thank you state end -->
 
