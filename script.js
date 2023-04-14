@@ -1,20 +1,14 @@
-// const btns = document.getElementsByClassName("btn");
-// console.log
-// btns.forEach((btn) => {
-//   btn.addEventListener("click", (e) => {
-//     btns.forEach((f) => f.classList.remove("active"));
-//     e.target.classList.toggle("active");
-//   });
-// });
+const ratingHandler = (event) => {
+  event.preventDefault();
 
-// const button = document.getElementById("button");
-// console.log(button)
-// const buttonPressed = (event) => {
-//   console.log("hello");
-//   // e.target.classList.toggle("active");
-// };
+  const btns = document.getElementsByClassName("active");
 
-// button.addEventListener("click", console.log('hiya'));
+  Array.from(btns).forEach((element) => {
+    element.classList.remove("active");
+  });
+
+  event.target.classList.toggle("active");
+};
 
 const submitRating = (event) => {
   event.preventDefault();
