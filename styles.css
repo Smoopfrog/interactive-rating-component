@@ -112,7 +112,7 @@ p {
   color: white;
 }
 
-.active {
+.btn-container .active {
   background-color: hsl(25, 97%, 53%);
   color: white;
 }
